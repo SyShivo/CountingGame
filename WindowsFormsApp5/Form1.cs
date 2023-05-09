@@ -93,7 +93,7 @@ namespace WindowsFormsApp5
             
             for (int i = 0; i < Accounting.Length; i++)
             {
-                    int index = i % listView1.Items.Count;
+                    int index = i % listView1.Items.Count; // перевірка на кінець списку
                     if (index < listView1.Items.Count)
                     {
                         listView1.Items[index].ForeColor = Color.Red;
